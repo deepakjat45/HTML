@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+
+    <h2>Hello students Please kindly feel your form </h2>
+    <br>
+
+    <form action="/data.php">
+
+        <h4>input your userename and password </h4>
+        <!-- user save data Barane Ke Liye input use kia jata he -->
+        <input type="text" placeholder="Userename">
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <br> <hr>
+
+
+        <!-- We use label (radio button) for choosable button for user -->
+
+        <h4>Choose your class </h4>
+
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101"> class XI
+        </label>
+        <br>
+
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102"> class XII
+        </label>
+        <br><br><br><br>
+
+
+
+        <!-- We huge checkbox in level for multiple choosable boxes -->
+        <hr>
+        <h4>choose your favorite subject</h4>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101"> math
+        </label>
+        <br><br>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="102"> physics
+        </label>
+        <br><br>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="103"> chemistry
+        </label>
+        <br><br>
+        <label for="computer scince">
+            <input type="checkbox" value="computer scince" name="subject" id="104"> computer scince
+        </label>
+        <br><br>
+        <br><br>
+
+        <!-- This is how we make dropdown bar -->
+
+        <h4>clect your city</h4>
+        <select name="city">
+            <option value="mumbai">mumbai</option>
+            <option value="kolkata">kolkata</option>
+            <option value="Delhi">Delhi</option>
+            <option value="benglor">benglor</option>
+            <option value="jaipur">jaipur</option>
+        </select>
+        <br>
+        <br><br>
+
+
+
+        <!-- This is how feedback bar make -->
+
+        <textarea id="130." placeholder="please eanter your feedback" rows=10 cols="100 "></textarea>
+        <br>
+        <hr>
+
+        clack on this image for more --> <a href="https://www.google.co.in/"> <img src="twiter.webp" alt="not imp"
+                height="15"></a>
+        <br><br>
+
+
+        <!-- Submit button Banani Ke Liye -->
+        <input type="submit" name="submit" id="2220">
+
+    </form>
+    <br><br><br>
+    <hr>
+
+
+    <!-- doosri websites go apni websites ke andor use karne kelye iframe ka use keye jata hai  -->
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=7f5E8SqnQkpu7FXe"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br><br>
+    <hr>
+
+    <video width="300" height="200" src="myvideio.mp4" controls>my video </video>
+    <br><br>
+    <hr>
+
+
+    <audio src="first Recording.audio.m4a" controls></audio>
+
+
+
+</body>
+
+</html>
